@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Russian restourant</title>
+  </head>
+  <body>
+    <div class="div-for-header-hero-background">
+      <!-- Header section -->
+      <header class="pt-[50px]">
+        <div class="container">
+          <div class="flex items-center justify-between">
+            <div><img src="./assets/images/logo.svg" alt="" /></div>
+            <div class="flex items-center">
+              <a
+                href="#"
+                class="font-[700] text-[#FFFFFF] text-[14px] mr-[23px] font-osans"
+              >
+                ГЛАВНАЯ
+              </a>
+              <a
+                href="#"
+                class="font-[700] text-[#FFFFFF] text-[14px] mr-[20px] font-osans"
+              >
+                МЕНЮ
+              </a>
+              <a
+                href="#"
+                class="font-[700] text-[#FFFFFF] text-[14px] mr-[25px] font-osans"
+              >
+                О НАС
+              </a>
+              <a
+                href="#"
+                class="font-[700] text-[#FFFFFF] text-[14px] mr-[36px] font-osans"
+                >БРОНЬ</a
+              >
+              <a href="#" class="pr-[21px] pt-[20px] pb-[20px] border-r-[1px]">
+                <img src="./assets/icons/cart.svg" alt="Cart icon" />
+              </a>
+              <div class="ml-[31px] mr-[45px]">
+                <div class="flex items-center">
+                  <img src="./assets/icons/phone.svg" alt="Phone icon" />
+                  <p class="font-[700] text-[18px] text-[#FFFFFF] font-osans">
+                    +999-888-76-54
+                  </p>
+                </div>
+                <p class="font-osans font-[400] text-[14px] text-[#FFFFFF]">
+                  Свяжитесь с нами для
+                  <br />
+                  бронирования
+                </p>
+              </div>
+              <button
+                class="osans font-[700] text-[14px] text-[#FFFFFF] pt-[14px] pb-[14px] pr-[19px] pl-[18px] bg-[#FF7400]"
+              >
+                ЗАКАЗ СТОЛИКА
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Hero section -->
+      <section class="mt-[204px] pb-[231px] relative">
+        <div class="container">
+          <div class="inline-block text-center">
+            <h1
+              class="text-center font-tinos font-[400] text-[50px] text-[#D67E35]"
+            >
+              Добро пожаловать в
+              <br />
+              <span class="text-[80px] leading-[91.99px]">Наш ресторан</span>
+            </h1>
+            <div class="flex justify-center gap-[8px] mb-[21px]">
+              <img src="./assets/icons/sticks.svg" alt="Stick icon" />
+              <p class="osans font-[400] text-[18px] text-[#FFFFFF]">
+                ДОМ ЛУЧШЕЙ ЕДЫ
+              </p>
+              <img src="./assets/icons/sticks.svg" alt="Stick icon" />
+            </div>
+            <button
+              class="pt-[14px] pr-[28px] pb-[14px] pl-[28px] bg-[#FF7400] osans font-[700] text-[14px] text-[#FFFFFF]"
+            >
+              VIEW MENU
+            </button>
+          </div>
+          <div class="absolute flex items-center mt-[144px] gap-[31px]">
+            <div
+              class="bg-[#FFFFFF] flex flex-col items-center pt-[57px] pr-[43px] pb-[15px] pl-[43px] cards text-center"
+            >
+              <img src="./assets/images/meal.svg" alt="Meal" />
+              <h2
+                class="font-tinos font-[400] text-[26px] text-[#2C2C2C] mb-[20px]"
+              >
+                Магическая <span class="text-[#D67E35]">Атмосфера</span>
+              </h2>
+              <p class="font-tinos font-[400] text-[26px] text-[#656363]">
+                В нашем заведении царит
+                <br />
+                магическая атмосфера
+                <br />
+                наполненная вкусными
+                <br />
+                ароматами
+              </p>
+            </div>
+            <div
+              class="bg-[#FFFFFF] flex flex-col items-center pt-[60px] pr-[49px] pb-[90px] pl-[58px] cards text-center"
+            >
+              <img src="./assets/images/meal.svg" alt="Meal" />
+              <h2
+                class="font-tinos font-[400] text-[26px] text-[#2C2C2C] mb-[20px]"
+              >
+                Лучшее качество <span class="text-[#D67E35]">Еды</span>
+              </h2>
+              <p class="font-tinos font-[400] text-[26px] text-[#656363]">
+                Качество нашей
+                <br />
+                Еды - отменное!
+              </p>
+            </div>
+            <div
+              class="bg-[#FFFFFF] flex flex-col items-center pt-[48px] pr-[49px] pb-[24px] pl-[58px] cards text-center"
+            >
+              <img src="./assets/images/meal.svg" alt="Meal" />
+              <h2
+                class="font-tinos font-[400] text-[26px] text-[#2C2C2C] mb-[20px]"
+              >
+                Недорогая <span class="text-[#D67E35]">Едa</span>
+              </h2>
+              <p class="font-tinos font-[400] text-[26px] text-[#656363]">
+                Стоимость нашей Еды
+                <br />
+                зависит только от ее
+                <br />
+                количества. Качество
+                <br />
+                всегда на высоте!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Our history section -->
+    <section class="our-history mt-[400px] mb-[122px]">
+      <div class="container">
+        <div class="flex justify-between">
+          <div>
+            <h2 class="text-center font-tinos font-[400] text-[54px]">
+              Наша <span class="text-[#D67E35]">История</span>
+            </h2>
+            <p class="text-center font-osans text-[#656363] mt-[21px]">
+              Как и у любого другого самобытного места, у нас есть <br />
+              своя, особая история. Идея ресторана пришла <br />
+              основателям неожиданно. Во время прогулки по лесу <br />
+              создатель нашего ресторана застрял в сотнях <br />
+              километров от ближайшего населенного пункта. Вдали <br />
+              от цивилизации и связи им пришлось навремя <br />
+              обустровать себе нехитрый быт, добывать и готовить <br />
+              себе еду.
+            </p>
+            <div class="flex justify-center mt-[39px]">
+              <div class="text-center">
+                <p class="font-osans font-[400] text-[40px] text-[#BC9060]">
+                  93
+                </p>
+                <p class="font-osans font-[400] text-[20px]">Напитки</p>
+              </div>
+              <div class="text-center ml-[41px] mr-[30px]">
+                <p class="font-osans font-[400] text-[40px] text-[#BC9060]">
+                  206
+                </p>
+                <p class="font-osans font-[400] text-[20px]">Еда</p>
+              </div>
+              <div class="text-center">
+                <p class="font-osans font-[400] text-[40px] text-[#BC9060]">
+                  71
+                </p>
+                <p class="font-osans font-[400] text-[20px]">Закуски</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="./assets/images/our-history.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Offer section -->
+    <section class="offer-section mb-[132px] pb-[104px] pt-[80px]">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2
+              class="font-tinos font-[400] text-[52px] text-[#D67E34] mb-[20px]"
+            >
+              Отпразднуйте в одном из <br />
+              самых лучших ресторанов.
+            </h2>
+            <p class="font-osans font-[700] text-[white] text-[24px]">
+              Только в этом месяце бизнес-ланч от 250 ₽
+            </p>
+          </div>
+          <div>
+            <button
+              class="font-osans font-[700] text-[14px] text-[white] pt-[14px] pr-[19px] pb-[14px] pl-[19px] bg-[#FF7400]"
+            >
+              ЗАКАЗ СТОЛИКА
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our meals section -->
+    <section class="pb-[150px]">
+      <div class="container">
+        <h2 class="text-center font-tinos font-[400] text-[54px] mb-[139px]">
+          Наши <span class="text-[#D67E34]">Блюда</span>
+        </h2>
+        <div class="flex items-center justify-between">
+          <div>
+            <img src="./assets/images/pizza.png" alt="Pizza" />
+          </div>
+          <div>
+            <div class="flex items-center mb-[29px] gap-[30px]">
+              <img src="./assets/images/hamburger.png" alt="Hamburger" />
+              <div class="flex items-center gap-[7px]">
+                <p class="font-tinos font-[400] text-[26px]">Гамбургер мини</p>
+                <img src="./assets/images/dots.svg" alt="Dots" />
+                <p class="font-tinos font-[400] text-[26px]">220 ₽</p>
+              </div>
+            </div>
+            <div class="flex items-center mb-[29px] gap-[30px]">
+              <img src="./assets/images/hamburger.png" alt="Hamburger" />
+              <div class="flex items-center gap-[7px]">
+                <p class="font-tinos font-[400] text-[26px]">Гамбургер мини</p>
+                <img src="./assets/images/dots.svg" alt="Dots" />
+                <p class="font-tinos font-[400] text-[26px]">220 ₽</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-[30px]">
+              <img src="./assets/images/hamburger.png" alt="Hamburger" />
+              <div class="flex items-center gap-[7px]">
+                <p class="font-tinos font-[400] text-[26px]">Гамбургер мини</p>
+                <img src="./assets/images/dots.svg" alt="Dots" />
+                <p class="font-tinos font-[400] text-[26px]">220 ₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our menu section -->
+    <section class="our-menu pb-[226px]">
+      <div class="container">
+        <h2
+          class="text-center pt-[100px] font-tinos font-[400] text-[54px] text-[white] mb-[138px]"
+        >
+          Наше меню
+        </h2>
+        <div class="flex justify-between">
+          <div
+            class="bg-[white] pt-[80px] pr-[63px] pb-[29px] pl-[62px] relative text-center"
+          >
+            <p
+              class="absolute top-[0] left-[0] pt-[7px] pr-[11px] pb-[11px] pl-[12px] bg-[#D67E34] uppercase font-osans font-[400] text-[13px]"
+            >
+              Recommended
+            </p>
+            <img src="./assets/images/cheeseburger.png" alt="Cheeseburger" />
+            <p
+              class="absolute top-[205px] left-[192px] pt-[30px] pr-[34px] pb-[30px] pl-[29px] bg-[#D67E34] border-[7px] border-[white] rounded-[100%] font-cookie font-[400] text-[30px] text-[white]"
+            >
+              420
+            </p>
+            <h3 class="font-tinos font-[400] text-[26px] mt-[22px] mb-[17px]">
+              Гамбургер макси
+            </h3>
+            <p class="font-osans font-[400] text-[16px] mb-[20px]">
+              Максимально толстый <br />
+              слой мяса
+            </p>
+            <button
+              class="font-osans font-[700] text-[16px] pt-[14px] pr-[68px] pb-[14px] pl-[68px] bg-[#D67E34] order-button text-[white]"
+            >
+              ЗАКАЗАТЬ
+            </button>
+          </div>
+          <div
+            class="bg-[white] pt-[80px] pr-[63px] pb-[29px] pl-[62px] relative text-center"
+          >
+            <img src="./assets/images/cheeseburger.png" alt="Cheeseburger" />
+            <p
+              class="absolute top-[205px] left-[192px] pt-[30px] pr-[34px] pb-[30px] pl-[29px] bg-[#D67E34] border-[7px] border-[white] rounded-[100%] font-cookie font-[400] text-[30px] text-[white]"
+            >
+              420
+            </p>
+            <h3 class="font-tinos font-[400] text-[26px] mt-[22px] mb-[17px]">
+              Гамбургер макси
+            </h3>
+            <p class="font-osans font-[400] text-[16px] mb-[20px]">
+              Максимально толстый <br />
+              слой мяса
+            </p>
+            <button
+              class="font-osans font-[700] text-[16px] pt-[14px] pr-[68px] pb-[14px] pl-[68px] bg-[#D67E34] order-button text-[white]"
+            >
+              ЗАКАЗАТЬ
+            </button>
+          </div>
+          <div
+            class="bg-[white] pt-[80px] pr-[63px] pb-[29px] pl-[62px] relative text-center"
+          >
+            <img src="./assets/images/cheeseburger.png" alt="Cheeseburger" />
+            <p
+              class="absolute top-[205px] left-[192px] pt-[30px] pr-[34px] pb-[30px] pl-[29px] bg-[#D67E34] border-[7px] border-[white] rounded-[100%] font-cookie font-[400] text-[30px] text-[white]"
+            >
+              420
+            </p>
+            <h3 class="font-tinos font-[400] text-[26px] mt-[22px] mb-[17px]">
+              Гамбургер макси
+            </h3>
+            <p class="font-osans font-[400] text-[16px] mb-[20px]">
+              Максимально толстый <br />
+              слой мяса
+            </p>
+            <button
+              class="font-osans font-[700] text-[16px] pt-[14px] pr-[68px] pb-[14px] pl-[68px] bg-[#D67E34] order-button text-[white]"
+            >
+              ЗАКАЗАТЬ
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customers section -->
+    <section class="bg-[#E5E5E5] text-center pt-[104px] pb-[107px]">
+      <div class="container">
+        <p class="font-osans font-[400] text-[20px] italic mb-[10px]">
+          Я надолго запомню мой День рождения, проведённый в этом ресторане!
+          Кусочек родной <br />
+          Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки.
+          Будем <br />
+          рекомендовать этот ресторан своим друзьям и родственникам также за
+          рубежом, <br />
+          путешествующих в Санкт-Петербург!!!
+        </p>
+        <img
+          class="inline-block"
+          src="./assets/images/customer.svg"
+          alt="Customer"
+        />
+        <p class="font-osans font-[600] text-[20px] mt-[16px]">Посетитель</p>
+        <p class="font-osans font-[400] text-[20px] mt-[9px]">Николай</p>
+        <img
+          class="inline-block mt-[15px]"
+          src="./assets/images/three-dots.png"
+          alt="Three dots"
+        />
+      </div>
+    </section>
+    <!-- Meals gallery section -->
+    <section class="pt-[101px] pb-[100px] relative">
+      <img
+        class="absolute top-[244px]"
+        src="./assets/images/red-box.png"
+        alt="Red box"
+      />
+      <img
+        class="absolute top-[244px] right-0"
+        src="./assets/images/red-box.png"
+        alt="Red box"
+      />
+      <div class="container">
+        <h2 class="font-tinos font-[400] text-[54px] text-center mb-[60px]">
+          Галерея <span class="text-[#D67E34]">Блюд</span>
+        </h2>
+        <div class="flex items-center justify-between mb-[30px]">
+          <img src="./assets/images/dishes.png" alt="Dishes" />
+          <img src="./assets/images/coffee.png" alt="Coffee" />
+          <img src="./assets/images/soup.png" alt="" />
+        </div>
+        <div class="flex items-center justify-between">
+          <img src="./assets/images/coffee.png" alt="Coffee" />
+          <img src="./assets/images/soup.png" alt="" />
+          <img src="./assets/images/dishes.png" alt="Dishes" />
+        </div>
+      </div>
+    </section>
+    <!-- Our chiefs section -->
+    <section class="pb-[100px]">
+      <div class="container">
+        <h2 class="font-tinos font-[400] text-[54px] text-center mb-[107px]">
+          Наши <span class="text-[#D67E34]">Повара</span>
+        </h2>
+        <div class="flex justify-between">
+          <img src="./assets/images/first-chief.png" alt="Chief" />
+          <img src="./assets/images/second-chief.png" alt="Chief" />
+          <img src="./assets/images/third-chief.png" alt="Chief" />
+        </div>
+      </div>
+    </section>
+    <!-- Last section -->
+    <section class="last-section"></section>
+  </body>
+</html>

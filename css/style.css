@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+}
+.cards {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+}
+
+.div-for-header-hero-background {
+  background-image: url("../assets/images/hero-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.874), rgba(0, 0, 0, 0.874)),
+    url("../assets/images/offer-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-menu {
+  background-image: url("../assets/images/our-menu-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.last-section {
+  background-image: url("../assets/images/last-section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 732px;
+}
+
+@font-face {
+  font-family: "osans";
+  src: url("../assets/fonts/Open Sans.woff");
+}
+
+@font-face {
+  font-family: "tinos";
+  src: url("../assets/fonts/Tinos.woff");
+}
+@font-face {
+  font-family: "cookie";
+  src: url("../assets/fonts/Cookie.woff");
+}
+.order-button {
+  box-shadow: 5px 5px 10px 0px #00000040;
+}
